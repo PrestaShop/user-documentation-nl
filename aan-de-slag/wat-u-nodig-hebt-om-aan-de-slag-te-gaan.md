@@ -10,9 +10,9 @@
     * [Een plan opstellen](wat-u-nodig-hebt-om-aan-de-slag-te-gaan.md#Watunodighebtomaandeslagtegaan-Eenplanopstellen)
     * [PrestaShop installeren](wat-u-nodig-hebt-om-aan-de-slag-te-gaan.md#Watunodighebtomaandeslagtegaan-PrestaShopinstalleren)
 
-## Wat u nodig hebt om aan de slag te gaan <a href="watunodighebtomaandeslagtegaan-watunodighebtomaandeslagtegaan" id="watunodighebtomaandeslagtegaan-watunodighebtomaandeslagtegaan"></a>
+## Wat u nodig hebt om aan de slag te gaan <a href="#watunodighebtomaandeslagtegaan-watunodighebtomaandeslagtegaan" id="watunodighebtomaandeslagtegaan-watunodighebtomaandeslagtegaan"></a>
 
-### Verkorte installatie-instructies <a href="watunodighebtomaandeslagtegaan-verkorteinstallatie-instructies" id="watunodighebtomaandeslagtegaan-verkorteinstallatie-instructies"></a>
+### Verkorte installatie-instructies <a href="#watunodighebtomaandeslagtegaan-verkorteinstallatie-instructies" id="watunodighebtomaandeslagtegaan-verkorteinstallatie-instructies"></a>
 
 Hier volgt een lijst met de zaken die u nodig hebt om aan de slag te gaan met het installeren van PrestaShop 1.7. Als u het idee hebt dat de informatie te algemeen is, kunt u in de hierop volgende hoofdstukken meer gedetailleerde informatie vinden.
 
@@ -45,13 +45,13 @@ Bekijk de pagina met officiële systeemvereisten: [http://www.prestashop.com/nl/
 
 Wanneer u alles hebt voorbereid, gebruikt u de [installatiehandleiding](prestashop-installeren.md).
 
-### Gedetailleerde installatie-instructies <a href="watunodighebtomaandeslagtegaan-gedetailleerdeinstallatie-instructies" id="watunodighebtomaandeslagtegaan-gedetailleerdeinstallatie-instructies"></a>
+### Gedetailleerde installatie-instructies <a href="#watunodighebtomaandeslagtegaan-gedetailleerdeinstallatie-instructies" id="watunodighebtomaandeslagtegaan-gedetailleerdeinstallatie-instructies"></a>
 
 PrestaShop is een webtoepassing: deze moet worden geïnstalleerd op een webserver om te kunnen worden uitgevoerd en er is een domeinnaam nodig die uw bezoekers gebruiken om uw winkel te bezoeken.
 
-#### Een domeinnaam registreren <a href="watunodighebtomaandeslagtegaan-eendomeinnaamregistreren" id="watunodighebtomaandeslagtegaan-eendomeinnaamregistreren"></a>
+#### Een domeinnaam registreren <a href="#watunodighebtomaandeslagtegaan-eendomeinnaamregistreren" id="watunodighebtomaandeslagtegaan-eendomeinnaamregistreren"></a>
 
-Voordat u iets downloadt of installeert, moet u een startpagina opgeven voor uw PrestaShop-webwinkel. Deze startpagina bestaat uit twee zaken: een domeinnaam en een webserver. Een domeinnaam is een online-id voor uw website, zoals [example.com](http://example.com) of [myonlineshop.net](http://myonlineshop.net). Dit is het visitekaartje van uw webserver en daarmee ook van uw winkel.
+Voordat u iets downloadt of installeert, moet u een startpagina opgeven voor uw PrestaShop-webwinkel. Deze startpagina bestaat uit twee zaken: een domeinnaam en een webserver. Een domeinnaam is een online-id voor uw website, zoals [example.com](http://example.com/) of [myonlineshop.net](http://myonlineshop.net/). Dit is het visitekaartje van uw webserver en daarmee ook van uw winkel.
 
 U moet een domeinnaam kopen voor uw winkel. Mogelijk krijgt u er een wanneer u ergens webhostingservices koopt: veel webhosts bieden een gratis domeinnaam bij elk nieuwe account. Het kan zijn dat u de domeinnaam een jaar gratis kunt gebruiken of zelfs zo lang zal als u de webhostingservices gebruikt. Op die manier is het eenvoudig om álles (hosting + domeinnaam) in één keer te verkrijgen.
 
@@ -66,14 +66,14 @@ Naast het betalen voor de domeinnaamregistratie moet u ook betalen voor webhosti
 \
 Als u liever een domeinnaam koopt bij een onafhankelijke registrar, vindt u hier enkele betrouwbare partijen:
 
-* Gandi: [http://en.gandi.net/](http://en.gandi.net)
-* Namecheap: [http://www.namecheap.com/](http://www.namecheap.com)
-* GoDaddy: [https://www.godaddy.com/](https://www.godaddy.com)
-* 1&1 IONOS: [https://www.ionos.com](https://www.ionos.com)
+* Gandi: [http://en.gandi.net/](http://en.gandi.net/)
+* Namecheap: [http://www.namecheap.com/](http://www.namecheap.com/)
+* GoDaddy: [https://www.godaddy.com/](https://www.godaddy.com/)
+* 1&1 IONOS: [https://www.ionos.com](https://www.ionos.com/)
 
 Er zijn er echter nog veel meer. Vraag uw vrienden ook naar tips!
 
-#### Een host vinden <a href="watunodighebtomaandeslagtegaan-eenhostvinden" id="watunodighebtomaandeslagtegaan-eenhostvinden"></a>
+#### Een host vinden <a href="#watunodighebtomaandeslagtegaan-eenhostvinden" id="watunodighebtomaandeslagtegaan-eenhostvinden"></a>
 
 Nu u een domeinnaam hebt, moet u deze koppelen aan PrestaShop. Dit betekent dat de PrestaShop-bestanden zich moeten bevinden op een webserver. Mogelijk hebt u een eigen webserver, maar de kans is groter dat u uw winkel host bij of gaat hosten bij een internethostingservice (zie: [http://en.wikipedia.org/wiki/Internet\_hosting\_service](http://en.wikipedia.org/wiki/Internet\_hosting\_service)); deze biedt u een locatie online voor een maandelijks of jaarlijks te betalen bedrag.
 
@@ -81,7 +81,7 @@ Voordat u aan de slag gaat met een webwinkel, moet u een hostingprovider kiezen.
 
 Bij het kiezen van een host moet u rekening houden met één belangrijke vereiste: er moet ondersteuning worden geboden voor PHP 5.4 (of nieuwer); dit is de programmeertaal waarin PrestaShop is geschreven, en voor MySQL 5 (of nieuwer), het databasesysteem waarin PrestaShop alle gegevens opslaat. Er zijn nog meer vereisten. Zie daarvoor het gedeelte Technische vereisten hieronder.
 
-#### Technische vereisten <a href="watunodighebtomaandeslagtegaan-technischevereisten" id="watunodighebtomaandeslagtegaan-technischevereisten"></a>
+#### Technische vereisten <a href="#watunodighebtomaandeslagtegaan-technischevereisten" id="watunodighebtomaandeslagtegaan-technischevereisten"></a>
 
 PrestaShop is een toepassing die wordt uitgevoerd op een webserver en is geschreven op basis van de PHP-programmeertaal. De gegevens worden in een MySQL-server opgeslagen.
 
@@ -101,7 +101,7 @@ PrestaShop kan ook werken met de IIS-webserver 6.0 of nieuwer van Microsoft en n
 
 Er is in de [Handleiding voor systeembeheerders](wat-u-nodig-hebt-om-aan-de-slag-te-gaan.md) meer informatie beschikbaar voor systeembeheerders. Lees deze!
 
-#### Tools <a href="watunodighebtomaandeslagtegaan-tools" id="watunodighebtomaandeslagtegaan-tools"></a>
+#### Tools <a href="#watunodighebtomaandeslagtegaan-tools" id="watunodighebtomaandeslagtegaan-tools"></a>
 
 U hebt twee tools nodig: een tekstverwerkingsprogramma om tekstbestanden te bewerken en een FTP-client om bestanden van uw apparaat te verplaatsen naar uw server en andersom.
 
@@ -110,21 +110,21 @@ U hebt twee tools nodig: een tekstverwerkingsprogramma om tekstbestanden te bewe
 Dit zijn enkele bekende tekstverwerkingsprogramma's:
 
 * Windows en OS X:
-  * Sublime Text: [http://www.sublimetext.com/](http://www.sublimetext.com)
-  * Atom: [https://atom.io/](https://atom.io)
+  * Sublime Text: [http://www.sublimetext.com/](http://www.sublimetext.com/)
+  * Atom: [https://atom.io/](https://atom.io/)
 * Unix/Linux:
-  * Vim: [http://www.vim.org/](http://www.vim.org)
+  * Vim: [http://www.vim.org/](http://www.vim.org/)
   * Emacs: [http://www.gnu.org/software/emacs/](http://www.gnu.org/software/emacs/)\
     \
 
 
-Gebruik GEEN regulier tekstverwerkingsprogramma voor het bewerken van tekstbestanden, zoals Microsoft Word of Write van [OpenOffice.org](http://openoffice.org).
+Gebruik GEEN regulier tekstverwerkingsprogramma voor het bewerken van tekstbestanden, zoals Microsoft Word of Write van [OpenOffice.org](http://openoffice.org/).
 
 FTP-client
 
 FTP staat voor File Transfer Protocol: de standaardmanier voor het overbrengen van bestanden van een computer naar een webhost.
 
-In deze gids wordt FileZilla gebruikt: een uitstekende en gratis FTP-client voor Windows, Mac OS X en Linux. Het programma is te downloaden via [http://filezilla-project.org/](http://filezilla-project.org). Start vervolgens het installatieprogramma. Download niet de FileZilla-server, maar alleen de FileZilla-client!
+In deze gids wordt FileZilla gebruikt: een uitstekende en gratis FTP-client voor Windows, Mac OS X en Linux. Het programma is te downloaden via [http://filezilla-project.org/](http://filezilla-project.org/). Start vervolgens het installatieprogramma. Download niet de FileZilla-server, maar alleen de FileZilla-client!
 
 Wanneer FileZilla is geïnstalleerd, moet u deze configureren met de verbindingsparameters van uw webserver. Deze moeten door uw host naar u zijn verzonden. Als de host dat niet heeft gedaan, vraagt u ernaar bij de host of kijkt u in de map Spam.
 
@@ -151,30 +151,30 @@ Uw hostingruimte toevoegen aan Site Manager:
 Als FileZilla u niet bevalt, kunt u een van de andere bekende FTP-clients gebruiken:
 
 * Windows:
-  * CoreFTP: [http://www.coreftp.com/](http://www.coreftp.com)
-  * WinSCP: [http://winscp.net/](http://winscp.net)
-  * SmartFTP: [http://www.smartftp.com/](http://www.smartftp.com)
+  * CoreFTP: [http://www.coreftp.com/](http://www.coreftp.com/)
+  * WinSCP: [http://winscp.net/](http://winscp.net/)
+  * SmartFTP: [http://www.smartftp.com/](http://www.smartftp.com/)
 * Mac OS X:
-  * Cyberduck: [http://cyberduck.ch/](http://cyberduck.ch)
+  * Cyberduck: [http://cyberduck.ch/](http://cyberduck.ch/)
   * Transmit: [http://www.panic.com/transmit/](http://www.panic.com/transmit/)
   * Fetch: [http://fetchsoftworks.com/fetch/](http://fetchsoftworks.com/fetch/)
 * Unix/Linux:
-  * gFTP: [http://gftp.seul.org/](http://gftp.seul.org)
-  * kasablanca: [http://kasablanca.berlios.de/](http://kasablanca.berlios.de)
+  * gFTP: [http://gftp.seul.org/](http://gftp.seul.org/)
+  * kasablanca: [http://kasablanca.berlios.de/](http://kasablanca.berlios.de/)
   * NcFTP: [http://www.ncftp.com/ncftp/](http://www.ncftp.com/ncftp/)
 
-#### Een plan opstellen <a href="watunodighebtomaandeslagtegaan-eenplanopstellen" id="watunodighebtomaandeslagtegaan-eenplanopstellen"></a>
+#### Een plan opstellen <a href="#watunodighebtomaandeslagtegaan-eenplanopstellen" id="watunodighebtomaandeslagtegaan-eenplanopstellen"></a>
 
 U moet direct beslissen waar u PrestaShop wilt hosten. Er zijn vier mogelijkheden ten aanzien van uw domeinnaam:
 
-* In de hoofdmap van het domein: [http://www.voorbeeld.com/](http://www.example.com)
+* In de hoofdmap van het domein: [http://www.voorbeeld.com/](http://www.example.com/)
 * In een map: [http://www.voorbeeld.com/shop/](http://www.example.com/shop/)
-* In een subdomein: [http://store.voorbeeld.com/](http://store.example.com)
+* In een subdomein: [http://store.voorbeeld.com/](http://store.example.com/)
 * In een map van een subdomein: [http://kleding.voorbeeld.com/boutique/](http://clothes.example.com/boutique/)
 
 Dankzij de functie voor meerdere winkels kunt u zo veel winkels als nodig is opstarten met één installatie van PrestaShop 1.7. Indien nodig kunt u voor elke winkel een eigen domeinnaam gebruiken. Houd hier rekening mee tijdens het besluiten waar u wat gaat opslaan.\
 &#x20;Wat u ook van plan bent: de standaardopslagplaats bevindt zich altijd op dezelfde locatie als PrestaShop.
 
-#### PrestaShop installeren <a href="watunodighebtomaandeslagtegaan-prestashopinstalleren" id="watunodighebtomaandeslagtegaan-prestashopinstalleren"></a>
+#### PrestaShop installeren <a href="#watunodighebtomaandeslagtegaan-prestashopinstalleren" id="watunodighebtomaandeslagtegaan-prestashopinstalleren"></a>
 
 Nu u aan alle vereisten voldoet, kunt u de [installatiehandleiding gebruiken](prestashop-installeren.md).

@@ -14,7 +14,7 @@ Als u PrestaShop op uw eigen computer wilt installeren, moet u eerst de instruct
 
 Als u de instructies op die pagina al hebt gelezen, gaat u naar het gedeelte Een database maken voor uw winkel van deze pagina.
 
-## PrestaShop installeren <a href="prestashopinstalleren-prestashopinstalleren" id="prestashopinstalleren-prestashopinstalleren"></a>
+## PrestaShop installeren <a href="#prestashopinstalleren-prestashopinstalleren" id="prestashopinstalleren-prestashopinstalleren"></a>
 
 PrestaShop is eenvoudig te installeren. Wanneer alle bestanden op uw webserver staan, kunt u in de meeste gevallen binnen 5 minuten gaan configureren. Het installatieproces is zeer eenvoudig omdat het installatieprogramma alles voor u doet. Minder ervaren gebruikers hebben mogelijk tussen de 10 en 20 minuten nodig om het volledige proces te doorlopen.
 
@@ -34,7 +34,7 @@ Sommige van deze scripts bieden zelfs ondersteuning voor bijwerken met één kli
 
 Andere hosts beschikken over hun eigen installatiescripts. Neem contact op met uw eigen host voor meer informatie
 
-### &#x20;Verkorte installatie-instructies <a href="prestashopinstalleren-verkorteinstallatie-instructies" id="prestashopinstalleren-verkorteinstallatie-instructies"></a>
+### &#x20;Verkorte installatie-instructies <a href="#prestashopinstalleren-verkorteinstallatie-instructies" id="prestashopinstalleren-verkorteinstallatie-instructies"></a>
 
 Hier volgt een korte reeks instructies voor personen die al bekend zijn met het installeren van PHP-/MySQL-toepassingen op een webserver. Als u het jammer vindt dat er te weinig details worden geboden, ziet u het volgende gedeelte van dit hoofdstuk voor meer details.
 
@@ -47,9 +47,9 @@ Hier volgt een korte reeks instructies voor personen die al bekend zijn met het 
 
 PrestaShop is nu geïnstalleerd en kan worden geconfigureerd! Ga naar het hoofdstuk [Eerste stappen met PrestaShop 1.6](prestashop-installeren.md) van de gebruikershandleiding.
 
-### Gedetailleerde instructies <a href="prestashopinstalleren-gedetailleerdeinstructies" id="prestashopinstalleren-gedetailleerdeinstructies"></a>
+### Gedetailleerde instructies <a href="#prestashopinstalleren-gedetailleerdeinstructies" id="prestashopinstalleren-gedetailleerdeinstructies"></a>
 
-#### Het PrestaShop-archief downloaden en uitpakken <a href="prestashopinstalleren-hetprestashop-archiefdownloadenenuitpakken" id="prestashopinstalleren-hetprestashop-archiefdownloadenenuitpakken"></a>
+#### Het PrestaShop-archief downloaden en uitpakken <a href="#prestashopinstalleren-hetprestashop-archiefdownloadenenuitpakken" id="prestashopinstalleren-hetprestashop-archiefdownloadenenuitpakken"></a>
 
 U kunt de nieuwste versie van PrestaShop downloaden via [http://www.prestashop.com/nl/download](http://www.prestashop.com/en/download).
 
@@ -69,13 +69,13 @@ Het gedownloade bestand is een .ZIP-archief. Om door te gaan met het proces **mo
 Als uw besturingssysteem geen ondersteuning biest voor .ZIP-bestanden, kunt u daar een programma voor downloaden en installeren, zoals:
 
 * Windows:
-  * 7-zip: [http://www.7-zip.org/](http://www.7-zip.org)
+  * 7-zip: [http://www.7-zip.org/](http://www.7-zip.org/)
   * WinZip: [http://www.winzip.com/win/en/index.htm](http://www.winzip.com/win/en/index.htm)
-  * WinRAR: [http://www.rarlab.com/](http://www.rarlab.com)
+  * WinRAR: [http://www.rarlab.com/](http://www.rarlab.com/)
 * Mac OS X:
-  * iZip: [http://www.izip.com/](http://www.izip.com)
+  * iZip: [http://www.izip.com/](http://www.izip.com/)
   * WinZip Mac: [http://www.winzip.com/mac/](http://www.winzip.com/mac/)
-  * Zipeg: [http://www.zipeg.com/](http://www.zipeg.com)
+  * Zipeg: [http://www.zipeg.com/](http://www.zipeg.com/)
 
 \
 Als u een van deze programma's gebruikt, wordt de inhoud van het archief uitgepakt naar een bekende locatie op uw harde schijf (zoals op het bureaublad). **Upload het .ZIP-bestand niet rechtstreeks naar uw webserver**.
@@ -88,11 +88,11 @@ Het .ZIP-archief beschikt over drie items in de hoofdmap:
 
 Het bestand Install\_PrestaShop.html mag niet worden geüpload naar uw webserver.
 
-#### PrestaShop uploaden <a href="prestashopinstalleren-prestashopuploaden" id="prestashopinstalleren-prestashopuploaden"></a>
+#### PrestaShop uploaden <a href="#prestashopinstalleren-prestashopuploaden" id="prestashopinstalleren-prestashopuploaden"></a>
 
 U hebt nu een hostingruimte tot uw beschikking (als dat niet het geval is, leest u het hoofdstuk Wat u nodig hebt om aan de slag te gaan in deze gids), net als een map op uw harde schijf met het gecomprimeerde PrestaShop-archief.
 
-Met deze stap gaat u de PrestaShop-bestanden uploaden naar uw hostingruimte. Dit doet u door uw computer te verbinden met uw server via een FTP-client. Deze hebt u als het goed is geïnstalleerd tijdens het lezen van het hoofdstuk Wat u nodig hebt om aan de slag te gaan. We maken gebruik van het gratis programma FileZilla ([http://filezilla-project.org/](http://filezilla-project.org)).
+Met deze stap gaat u de PrestaShop-bestanden uploaden naar uw hostingruimte. Dit doet u door uw computer te verbinden met uw server via een FTP-client. Deze hebt u als het goed is geïnstalleerd tijdens het lezen van het hoofdstuk Wat u nodig hebt om aan de slag te gaan. We maken gebruik van het gratis programma FileZilla ([http://filezilla-project.org/](http://filezilla-project.org/)).
 
 Maak via de FTP-client verbinding met uw hostingruimte; gebruik daarvoor de verbindingsgegevens die zijn opgegeven door uw webhost (als u ze niet hebt, neemt u contact op met de host). Wanneer u verbinding hebt gemaakt, kunt u de PrestaShop-bestanden van uw computer overzetten naar de server.
 
@@ -103,20 +103,20 @@ In FileZilla (of een andere FTP-client), bladert u door uw lokale mappen tot u d
 In het gedeelte Externe locatie (rechts), bladert u naar de locatie waar u de PrestaShop openbaar beschikbaar wilt maken (hoofdmap van het domein, submap, subdomein...). Dit kan verschillen, afhankelijk van uw host en behoeften:
 
 * Uw host:
-  * Bij sommige hosts moet u mogelijk uw bestanden in een specifieke map plaatsen, zoals `/htdocs`, `/public_html`, `/web`, `/www`, `/`[uwdomeinnaam.com](http://yourdomainname.com), etc.
+  * Bij sommige hosts moet u mogelijk uw bestanden in een specifieke map plaatsen, zoals `/htdocs`, `/public_html`, `/web`, `/www`, `/`[uwdomeinnaam.com](http://yourdomainname.com/), etc.
   * Op de FTP-servers van andere hosts gaat u rechtstreeks naar het uploadgedeelte wanneer u zich aanmeldt.
 * Uw behoeften:
-  * Als u wilt dat de winkel de hoofdwebsite wordt voor uw domeinnaam (zoals [http://www.voorbeeld.com](http://www.example.com)), upload u PrestaShop naar de hoofdmap van de uploadruimte (afhankelijk van de host).
+  * Als u wilt dat de winkel de hoofdwebsite wordt voor uw domeinnaam (zoals [http://www.voorbeeld.com](http://www.example.com/)), upload u PrestaShop naar de hoofdmap van de uploadruimte (afhankelijk van de host).
   * Als u wilt dat de winkel in een submap van de domeinnaam komt te staan ([http://www.voorbeeld.com/shop](http://www.example.com/shop)), moet u eerst een map maken via FileZilla (klik met de rechtermuisknop en selecteer Map maken). Upload daarna PrestaShop naar die map.
-  * Als u wilt dat uw winkel in een subdomein van uw domeinnaam komt te staan ([http://shop.voorbeeld.com](http://shop.example.com)), moet u eerst een subdomein maken. Dit is afhankelijk van uw host: mogelijk kunt u dit doen door een nieuwe map toe te voegen in uw FTP-client, maar het kan ook zijn dat u het subdomein moet maken via het beheerdeelvenster van uw host. Lees voor informatie hierover de ondersteuningsdocumentatie van uw host. Na het aanmaken bladert u naar de map van het subdomein en upload u PrestaShop daar.
+  * Als u wilt dat uw winkel in een subdomein van uw domeinnaam komt te staan ([http://shop.voorbeeld.com](http://shop.example.com/)), moet u eerst een subdomein maken. Dit is afhankelijk van uw host: mogelijk kunt u dit doen door een nieuwe map toe te voegen in uw FTP-client, maar het kan ook zijn dat u het subdomein moet maken via het beheerdeelvenster van uw host. Lees voor informatie hierover de ondersteuningsdocumentatie van uw host. Na het aanmaken bladert u naar de map van het subdomein en upload u PrestaShop daar.
 
 Aan de linkerkant van FileZilla staat nu de lokale map met de PrestaShop-bestanden uit het .ZIP-archief. Aan de rechterkant staat de bestemmingslocatie. Als u dit nog nooit hebt gedaan, hoeft u zich geen zorgen te maken. Het uploaden is eenvoudig: selecteer de drie bestanden uit de lokale map (gebruik CTRL + A) en sleep ze naar de map rechts. U kunt ook met de rechtermuisknop op de selectie klikken en Uploaden selecteren in het contextmenu.
 
-#### Een database maken voor uw winkel <a href="prestashopinstalleren-eendatabasemakenvooruwwinkel" id="prestashopinstalleren-eendatabasemakenvooruwwinkel"></a>
+#### Een database maken voor uw winkel <a href="#prestashopinstalleren-eendatabasemakenvooruwwinkel" id="prestashopinstalleren-eendatabasemakenvooruwwinkel"></a>
 
 Voordat u PrestaShop daadwerkelijk kunt installeren, moet u ervoor zorgen dat uw MySQL-server beschikt over een database die geschikt is voor de PrestaShop-gegevens. Als u dat niet het geval is, moet u een dergelijke database maken.
 
-U kunt een database maken met een willekeurige databasebeheertool. We gaan gebruikmaken van de gratis phpMyAdmin-tool ([http://www.phpmyadmin.net/](http://www.phpmyadmin.net)); deze wordt vooraf geïnstalleerd bij de meeste webhosts.
+U kunt een database maken met een willekeurige databasebeheertool. We gaan gebruikmaken van de gratis phpMyAdmin-tool ([http://www.phpmyadmin.net/](http://www.phpmyadmin.net/)); deze wordt vooraf geïnstalleerd bij de meeste webhosts.
 
 Sommige hosts laten klanten liever een grafisch bedieningspaneel gebruiken, zoals cPanel, Plesk of een zelfgemaakt paneel. Zorg ervoor dat u de documentatie van uw host leest die gaat over het werken met MySQL-databases en maak een database voor uw winkel door de opgegeven instructies te volgen.
 
@@ -129,7 +129,7 @@ In de linkerkolom ziet u de databases die momenteel beschikbaar zijn op uw MySQL
 
 U kunt een gloednieuwe database maken door naar het tabblad Database te gaan en daar het formulier in het midden te gebruiken met de naam Nieuwe database maken. Voer een unieke naam in en klik op Maken. De naam van de database wordt toegevoegd aan de lijst links. U kunt de database nu gebruiken voor het opslaan van de PrestaShop-gegevens.
 
-#### Het automatische-installatieprogramma starten <a href="prestashopinstalleren-hetautomatische-installatieprogrammastarten" id="prestashopinstalleren-hetautomatische-installatieprogrammastarten"></a>
+#### Het automatische-installatieprogramma starten <a href="#prestashopinstalleren-hetautomatische-installatieprogrammastarten" id="prestashopinstalleren-hetautomatische-installatieprogrammastarten"></a>
 
 Nu komt hetgeen waar alles om draait: PrestaShop installeren.
 
@@ -151,7 +151,7 @@ Deze pagina bevat een korte inleiding over het installatieproces. U kunt kiezen 
 
 ![](../.gitbook/assets/54266481.png)
 
-U ontvangt ook een koppeling naar de documentatiesite ([http://doc.prestashop.com/](http://doc.prestashop.com)) en een link naar onze ondersteuningsaanbieding. U vindt via het volgende adres meer informatie over onze ondersteuningsservice: [https://addons.prestashop.com/nl/388-support](http://support.prestashop.com/en/).
+U ontvangt ook een koppeling naar de documentatiesite ([http://doc.prestashop.com/](http://doc.prestashop.com/)) en een link naar onze ondersteuningsaanbieding. U vindt via het volgende adres meer informatie over onze ondersteuningsservice: [https://addons.prestashop.com/nl/388-support](http://support.prestashop.com/en/).
 
 Selecteer de taal waarin u het installatieprogramma wilt weergeven en klik op Volgende. Hiermee wordt ook de standaardtaal voor uw PrestaShop-installatie ingesteld, maar u kunt later ook andere talen inschakelen.
 
@@ -193,8 +193,8 @@ Hier volgt een lijst van de controles die worden uitgevoerd tijdens deze derde s
 | Is PHP 5.4 of nieuwer geïnstalleerd?                           | Webserver                                                                                                        |
 | Kan PrestaShop bestanden uploaden?                             | Het bestand php.ini (`file_uploads`)                                                                             |
 | Kan PrestaShop nieuwe bestanden en mappen maken?               | Bestandsbrowser / FTP-client / opdrachtregel                                                                     |
-| Is de GD-bibliotheek geïnstalleerd?                            | php.ini file (`extension=`[php\_gd2.so](http://php\_gd2.so))                                                     |
-| Is de MySQL-ondersteuning ingeschakeld?                        | php.ini file (`extension=`[php\_pdo\_mysql.so](http://php\_pdo\_mysql.so))                                       |
+| Is de GD-bibliotheek geïnstalleerd?                            | php.ini file (`extension=`[php\_gd2.so](http://php\_gd2.so/))                                                    |
+| Is de MySQL-ondersteuning ingeschakeld?                        | php.ini file (`extension=`[php\_pdo\_mysql.so](http://php\_pdo\_mysql.so/))                                      |
 | Recursieve schrijfmachtiging voor \~/config/                   | Bestandsbrowser / FTP-client / opdrachtregel                                                                     |
 | Recursieve schrijfmachtiging voor \~/cache/                    | Bestandsbrowser / FTP-client / opdrachtregel                                                                     |
 | Recursieve schrijfmachtiging voor \~/log/                      | Bestandsbrowser / FTP-client / opdrachtregel                                                                     |
@@ -209,13 +209,13 @@ Hier volgt een lijst van de controles die worden uitgevoerd tijdens deze derde s
 | Recursieve schrijfmachtiging voor \~/upload/                   | Bestandsbrowser / FTP-client / opdrachtregel                                                                     |
 | Recursieve schrijfmachtiging voor \~/download/                 | Bestandsbrowser / FTP-client / opdrachtregel                                                                     |
 | Recursieve schrijfmachtiging voor \~/sitemap.xml               | Bestandsbrowser / FTP-client / opdrachtregel                                                                     |
-| Kunnen via PrestaShop externe URL's worden geopend?            | [php.in](http://php.in)-bestand (`allow_url_fopen`)                                                              |
+| Kunnen via PrestaShop externe URL's worden geopend?            | [php.in](http://php.in/)-bestand (`allow_url_fopen`)                                                             |
 | Is de optie voor wereldwijd registreren van PHP uitgeschakeld? | Het bestand php.ini (`register_globals`)                                                                         |
 | Is GZIP-compressie geactiveerd?                                | Het bestand .htaccess                                                                                            |
 | Is de Mcrypt-extensie beschikbaar?                             | Het bestand php.ini (zie [http://php.net/manual/en/mcrypt.setup.php](http://php.net/manual/en/mcrypt.setup.php)) |
 | Zijn de ‘magische aanhalingstekens’ van PHP gedeactiveerd?     | Het bestand php.ini (`magic_quotes_gpc`)                                                                         |
 | Is de Dom-extensie geladen?                                    | `--enable-dom` - tijdcompilatie-optie                                                                            |
-| Is de PDO MySQL-extensie geladen?                              | php.ini file (`extension=`[php\_pdo\_mysql.so](http://php\_pdo\_mysql.so))                                       |
+| Is de PDO MySQL-extensie geladen?                              | php.ini file (`extension=`[php\_pdo\_mysql.so](http://php\_pdo\_mysql.so/))                                      |
 
 De PHP-configuratie kan slechts per geval worden gewijzigd, afhankelijk van uw toegangsniveau voor de server; daarom kan het proces alleen in volledige details worden beschreven. Het proces voor het bijwerken van bestandsmachtigingen is eenvoudiger uit te leggen.
 
@@ -268,7 +268,7 @@ Deze pagina bevat een formulier waarmee u PrestaShop kunt laten weten waar de da
 
 Vul in alle velden de databaseverbindingsinformatie in die is opgegeven door uw webhost:
 
-* **Databaseserveradres**. De hostnaam van uw MySQL-server. Deze kan zijn gekoppeld aan uw domeinnaam (zoals [http://sql.voorbeeld.com](http://sql.example.com)) of aan uw webhost (zoals [http://mysql2.alwaysdata.com](http://mysql2.alwaysdata.com)), of kan gewoon een IP-adres zijn (zoals 46.105.78.185).
+* **Databaseserveradres**. De hostnaam van uw MySQL-server. Deze kan zijn gekoppeld aan uw domeinnaam (zoals [http://sql.voorbeeld.com](http://sql.example.com/)) of aan uw webhost (zoals [http://mysql2.alwaysdata.com](http://mysql2.alwaysdata.com/)), of kan gewoon een IP-adres zijn (zoals 46.105.78.185).
 * **Databasenaam**. De naam van de database waarin u wilt dat PrestaShop gegevens opslaat. Dit is een bestaande database op uw MySQL-server, of de database die u hebt gemaakt met phpMyAdmin (of een andere SQL-tool) in het gedeelte Een database maken voor uw winkel van deze gids.
 * **Database-aanmeldingsgegevens**. De naam van de MySQL-gebruiker die toegang heeft tot uw database.
 * **Databasewachtwoord**. Het wachtwoord van de MySQL-gebruiker.
@@ -295,7 +295,7 @@ Het installatieprogramma doet het volgende:
 
 Wanneer dit is gedaan, is uw winkel geïnstalleerd en kan deze worden geconfigureerd!
 
-#### De installatie voltooien <a href="prestashopinstalleren-deinstallatievoltooien" id="prestashopinstalleren-deinstallatievoltooien"></a>
+#### De installatie voltooien <a href="#prestashopinstalleren-deinstallatievoltooien" id="prestashopinstalleren-deinstallatievoltooien"></a>
 
 Zoals u aan de rechterkant van de laatste pagina van het installatieproces kunt lezen, zijn er verschillende laatste acties die moeten worden uitgevoerd voordat u het installatieprogramma kunt verlaten.
 
@@ -305,12 +305,12 @@ U kunt de beveiliging van uw installatie eenvoudig verbeteren door enkele belang
 
 * De map /install (belangrijk).
 * De map /docs (optioneel), tenzij u de importeertool moet testen met de voorbeeld importeerbestanden die deze map bevat.
-* Het bestand [README.md](http://readme.md) (optioneel).
+* Het bestand [README.md](http://readme.md/) (optioneel).
 
 Klik op de knop Uw winkel beheren om naar het beheergedeelte te gaan.
 
 U kunt de installatie ook beveiligen door een aangepaste naam te gebruiken voor de beheermap. Verander de naam ‘admin’ bijvoorbeeld naar 4dmin-1537 of MySecReT4dm1n.\
-**** **Schrijf de nieuwe naam van de map admin op**, want van nu af aan opent u de beheerpagina's via dit adres!
+&#x20;**Schrijf de nieuwe naam van de map admin op**, want van nu af aan opent u de beheerpagina's via dit adres!
 
 Tot slot, om alle potentieel schadelijke ‘deuren’ te sluiten, gebruikt u de FTP-client om de machtigingen van de bestanden en mappen bij te werken naar 664 of 666 als uw host dit vereist. Als sommige modules niet werken door de beperkte toegangsrechten, kunt u de machtigingen weer instellen op 755.
 
