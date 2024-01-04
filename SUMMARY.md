@@ -8,4 +8,4 @@
   * [PrestaShop installeren met het opdrachtregelscript](aan-de-slag/prestashop-installeren-met-het-opdrachtregelscript.md)
   * [PrestaShop verwijderen](aan-de-slag/prestashop-verwijderen.md)
   * [Overige informatie](aan-de-slag/overige-informatie.md)
-* [User guide](user-guide.md)
+* [User guide PrestaShop 1.7](user-guide.md)
