@@ -20,9 +20,9 @@ PrestaShop is eenvoudig te installeren. Wanneer alle bestanden op uw webserver s
 
 Voordat u aan de slag gaat, controleert u of u over alle vereisten beschikt: serverruimte bij een hostingprovider, een domeinnaam, een FTP-client en een tekstverwerkingsprogramma. Zorg ervoor dat u eerst de instructies volgt op de pagina Wat u nodig hebt om aan de slag te gaan: [http://doc.prestashop.com/display/PS17/What+you+need+to+get+started](prestashop-installeren.md).
 
-Onze webhostingpartner 1&1 IONOS biedt installatie met één klik zodat u tijd bespaart en u nog sneller aan de slag kunt. Hierdoor kan de installatietijd voor niet-ervaren gebruikers drastisch worden verkort.&#x20;
+Onze webhostingpartner IONOS biedt installatie met één klik zodat u tijd bespaart en u nog sneller aan de slag kunt. Hierdoor kan de installatietijd voor niet-ervaren gebruikers drastisch worden verkort.&#x20;
 
-* [1&1 IONOS Hosting](http://www.tkqlhce.com/click-7873503-12490601-1380319321000)&#x20;
+* [IONOS Hosting](http://www.tkqlhce.com/click-7873503-12490601-1380319321000)&#x20;
 
 Deze webhosts maken vooral gebruik van de volgende scriptbibliotheken:
 

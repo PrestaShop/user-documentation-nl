@@ -69,7 +69,7 @@ Als u liever een domeinnaam koopt bij een onafhankelijke registrar, vindt u hier
 * Gandi: [http://en.gandi.net/](http://en.gandi.net/)
 * Namecheap: [http://www.namecheap.com/](http://www.namecheap.com/)
 * GoDaddy: [https://www.godaddy.com/](https://www.godaddy.com/)
-* 1&1 IONOS: [https://www.ionos.com](https://www.ionos.com/)
+* IONOS: [https://www.ionos.com](https://www.ionos.com/)
 
 Er zijn er echter nog veel meer. Vraag uw vrienden ook naar tips!
 
